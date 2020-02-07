@@ -41,13 +41,13 @@
     <ClCompile Include="NameWheel.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="MlpNetwork.cpp">
+    <ClCompile Include="soc\Functions.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Functions.cpp">
+    <ClCompile Include="soc\MlpNetwork.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Tools.cpp">
+    <ClCompile Include="soc\Tools.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

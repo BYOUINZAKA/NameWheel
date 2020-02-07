@@ -1,5 +1,5 @@
 #include "stdafx.h"
-#include "inc\Tools.h"
+#include ".\inc\Tools.h"
 
 namespace kodo
 {

@@ -1,5 +1,5 @@
 #include "stdafx.h"
-#include "inc\Functions.h"
+#include ".\inc\Functions.h"
 #include <cmath>
 
 namespace kodo

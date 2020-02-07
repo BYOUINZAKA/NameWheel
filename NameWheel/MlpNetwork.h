@@ -179,7 +179,7 @@ void kodo::MlpNetwork<InputCount, OutputCount, T>::Backward(const kodo::Vector &
 			for (size_t k = 0; k < _out[l].size(); k++) {
 				_omega[l][j][k] -= _learningRate * _out[l][k] * _loss[l][j];
 			}
-			_bias[l][j] -= _learningRate*_loss[l][j];
+			_bias[l][j] -= _learningRate * _loss[l][j];
 		}
 	}
 }
