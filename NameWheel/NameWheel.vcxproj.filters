@@ -16,44 +16,58 @@
     <Filter Include="头文件\inc">
       <UniqueIdentifier>{7cc74239-4ea5-4c0c-a9f1-6305bd7914b2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\soc">
+      <UniqueIdentifier>{e082abd7-0a6a-4ed3-b6d2-775834acf876}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="stdafx.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="targetver.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="MlpNetwork.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="inc\Functions.h">
       <Filter>头文件\inc</Filter>
     </ClInclude>
     <ClInclude Include="inc\Tools.h">
       <Filter>头文件\inc</Filter>
     </ClInclude>
+    <ClInclude Include="inc\stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="stdafx.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="NameWheel.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="soc\Functions.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="soc\MlpNetwork.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\soc</Filter>
+    </ClCompile>
+    <ClCompile Include="soc\Functions.cpp">
+      <Filter>源文件\soc</Filter>
     </ClCompile>
     <ClCompile Include="soc\Tools.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\soc</Filter>
+    </ClCompile>
+    <ClCompile Include="soc\stdafx.cpp">
+      <Filter>源文件\soc</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="inc\svpng.inc">
       <Filter>资源文件</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="data\part.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="data\sin.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="data\sin2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="data\sin3.png">
+      <Filter>资源文件</Filter>
+    </Image>
   </ItemGroup>
 </Project>

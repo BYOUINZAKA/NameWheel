@@ -1,2 +1,2 @@
-#include "stdafx.h"
+#include "inc\stdafx.h"
 #include ".\MlpNetwork.h"

@@ -1,4 +1,4 @@
-#include "stdafx.h"
+#include "inc\stdafx.h"
 #include ".\inc\Functions.h"
 #include <cmath>
 
