@@ -5,7 +5,7 @@
 /**
  *  MIT License
  *  
- *  Copyright (c) 2020 Byouinzaka¡¤KuroNeko https://github.com/BYOUINZAKA
+ *  Copyright (c) 2020 Byouinzaka-KuroNeko https://github.com/BYOUINZAKA
  *  
  *  Permission is hereby granted, free of charge, to any person obtaining a copy
  *  of this software and associated documentation files (the "Software"), to deal
@@ -77,7 +77,7 @@ namespace kodo
         double              _learningRate;
         HiddensType         _hidden;
         ActFunction         _middleFunc;
-        ActFunction	        _outputFunc;
+        ActFunction         _outputFunc;
         LossFunction        _lossFunc;
         std::vector<Vector> _in;
         std::vector<Vector> _out;
