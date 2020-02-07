@@ -27,10 +27,16 @@
     <ClInclude Include="inc\Tools.h">
       <Filter>头文件\inc</Filter>
     </ClInclude>
-    <ClInclude Include="inc\stdafx.h">
+    <ClInclude Include="MlpNetwork.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="inc\targetver.h">
+    <ClInclude Include="inc\svpng.inc">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -47,14 +53,9 @@
     <ClCompile Include="soc\Tools.cpp">
       <Filter>源文件\soc</Filter>
     </ClCompile>
-    <ClCompile Include="soc\stdafx.cpp">
-      <Filter>源文件\soc</Filter>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="inc\svpng.inc">
-      <Filter>资源文件</Filter>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <Image Include="data\part.png">
@@ -69,5 +70,18 @@
     <Image Include="data\sin3.png">
       <Filter>资源文件</Filter>
     </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="data\boys2.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="data\girls2.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\get_names.py">
+      <Filter>资源文件</Filter>
+    </None>
   </ItemGroup>
 </Project>
